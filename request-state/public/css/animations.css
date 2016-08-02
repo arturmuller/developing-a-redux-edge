@@ -1,0 +1,9 @@
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes slideIn {
+  from { transform: translateX(10rem); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
