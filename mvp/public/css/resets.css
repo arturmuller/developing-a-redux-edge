@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+}
+
+h1, h2, h3, h4, h5, h6, p, button, textarea {
+  margin: 0;
+  padding: 0;
+}
+
+a, button, textarea {
+  display: block;
+  outline: none;
+}
+
+button, textarea {
+  border: none;
+  background-color: transparent;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+}
