@@ -8,7 +8,7 @@ const NotesList = ({ notes, openNoteId, addNote, openNote }) => (
   <div style={style.wrapper}>
     <button
       style={style.addNoteButton}
-      onClick={addNote}
+      onClick={() => addNote()}
       >
       Add Note
     </button>
